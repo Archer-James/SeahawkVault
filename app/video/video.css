@@ -1,0 +1,87 @@
+/* Play Button in Top-Center */
+.play-button {
+    position: absolute;
+    top: 20px;
+    background-color: #fcc200 !important; 
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Pause Button in Top-Center */
+  .stop-button {
+    position: absolute;
+    top: 20px;
+    background-color: #fcc200 !important; 
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .stop-button:hover {
+    transform: scale(1.05); 
+    transform-origin: center; 
+}
+.play-button:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+}
+  
+  /* Slideshow Container (Centering the slideshow) */
+  .slideshow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    position: relative;
+  }
+  
+  /* Centered Slideshow Frame */
+  .slideshow-frame {
+    width: 70vw;  
+    height: 70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); 
+  }
+  
+  /* Slideshow Image - Ensures It Fits Inside the Frame */
+  .slideshow-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .l-message{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+  }
+  .l-message-word{
+    margin: 10px;
+    padding: 10px;
+    max-width: 70%;
+    text-align: center;
+  }
+  
+  .l-image{
+    max-width: 70%;
+  }

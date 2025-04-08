@@ -1,0 +1,123 @@
+/* Navbar Layout and Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 25px 50px;
+  background-color: #008485; 
+  color: white;
+  position: relative; 
+}
+
+.left {
+  display: flex; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px !important;
+  cursor: pointer;
+  color: black;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.1s;
+  max-width: 200px;
+  min-width: 100px;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+button:hover {
+  transform: scale(1.05); 
+}
+
+.logout-button {
+  background-color: white !important; 
+  padding: 12px 10px;
+  border: 1px solid #fcc200; 
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.logout-button:hover {
+  color: white; 
+}
+
+.user-button {
+  padding: 12px 20px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #fcc200; 
+  font-weight: bold;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  white-space: nowrap; 
+}
+
+.user-button:hover {
+  background-color: #d4af37; 
+}
+
+.user-button svg {
+  width: 18px;
+  height: 18px;
+  fill: white; 
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;  
+  margin-top: 0;  
+  text-align: center;
+  background-color: white;  
+  color: black;
+  width: 12rem;  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  z-index: 10; 
+}
+
+.dropdown-link {
+  display: block;
+  width: 100%; 
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-link:hover {
+  background-color: #fcc200; 
+  color: white; 
+}
+
+.gold-button {
+  background-color: #fcc200 !important; 
+  border: none;
+  padding: 12px 20px;
+  font-size: 2vw;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.1s;
+  max-width: 200px;
+  min-width: 100px;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.gold-button:hover {
+  transform: scale(1.05); /* Zoom effect */
+}

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "platinum-tracer-452017-n9",
+  "private_key_id": "89368227c5f81455c26ec5a20615dd71885e30e1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxcl3Xl1hg3Mbe\n5W3Z5j5b8UJBOiS39TuNwuY7Vy7YTBLuCLoFZjy7AjfbMtWglbElClcpuRLQc8Da\nT2UbNkMIwJvGwzL+7mRs1iRl8R/cxk3GB+VPPwJ8Vznqi6etAjTaidEPo38joFt5\n4vHbHzEPmM2aVCEeMo9KUc4S69ueW5DEykNqchM3V5R9BSF5ejsp8cSW6zlM3ieo\nVa6YasugPntRRedsuaObrXiVxB7RUPsY9YRBrgSb/OEma8F8MutbiXqfdJ65l5kF\n+rrJrhgKL2NdMfCiNLquv4Jeh1L0H+i/sTeD+PkiHeBcVWRVx4PVfvWSFj6xB1lP\nLH3pfvx5AgMBAAECggEAELM0o4IIBGq20Tq6t1GQ4B6RN5oRI1qCObXkbOSIQT1M\noUgjOLed4tRDPT8YJaI87yFdYWz8eS+RsIIdH/3f+nKFHqRXl/BH9YnEWG9Eakbk\nAi2TTl1d3qWnatxsog7VelVS3oPKxwe0IEEkdbTGbWM6Q2pkSQclXu9aw4Nc0pb/\nKLQUSXt6yAhFIjUgJohRGe8afshAvFLT+8f5xPkSCb+9IG1PKzpnxaT64h4IwHU4\n9vuzFphd4BMCYjxMimbE1Ua/iOZyJt+Pa6qpVrLc1H97ZVmKnxM8IZ1noPilHWgI\nYzLy7EjqfpN92b07+Y3cTckSRD/cOz7Ep9tpVp5tcQKBgQD5VuCgBZFaX2fhLOIB\n2TtPXipZoht5udGO3v616zTngp6cBU43zeebCrmpb7BuL8o21/8D7jALT2IN1LOd\n2VjkaxXTCsD92fQNHgxa/a0WzyJDPwQsqc3gQ5HXvqud704jFxV1sIHy6uE6lYFu\ncAjE9QHKoa1+EUbf6Fdb7bJxqQKBgQC2L9jW360NblQ1js9Ye1VSwATuhHzXMWe4\nMkMH+TVUjlzEtfrouZ1BEYvc7KsDfdkzEzDywS6rLEmJ9r9a2HVl4DGgnLfcG/lD\ngDSvIT4QLv8fLj0fqpscO0+Q+AkRpCG2/2Msz+BP1MFud2NqPZkbKx7sI3XyXnlq\newGuP/CWUQKBgG/8uDjHJ2iarzJwkTXZVo0oMwc9CvAaKGft+iLE+Gb+wLQ8ocvo\nnByDra3PL0PeDQmi67PdOBDsX5LstJux8f3tpsi57MJXMQjvNQdtJl+3OqFPXVWe\nEoymbIuk5LmzsLmL9aR9WXA8VFqWqaJriVTE4kAba6vSoK2SUiJE2T+5AoGAUHYx\nPjTrKNNhPYYk7N8Lf9BuXSkGOcQIGsGX+R2HACEft4Dnn4DagrJNIvUjUhdypawE\nIjJPeinFELl5KZYPwz6QrG6KhRuVqsokenQkBOG8qviw5htjBcTsDwp8dt4WRcvk\n8RWd66P7Cd6QeYta4zTYI1JF9RTkarKIu3xhtQECgYEAqgCXgIvrJp+wdYS5kQJW\ndyyUYniDgXyxa518nFGKa8EXXxZBId23z7t+2sgempJkuN7yRGz3wFuL8DD6Fuj1\nEXzdevmTIDGxlnoRgoUjW7w8xmpIT7I1t7PbCOv2ORz4uVfgt6Pf9p/ac6npkDQS\nW9o1fLBcgguvjSjmV12Rg0s=\n-----END PRIVATE KEY-----\n",
+  "client_email": "admin-179@platinum-tracer-452017-n9.iam.gserviceaccount.com",
+  "client_id": "113049704733618966555",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-179%40platinum-tracer-452017-n9.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

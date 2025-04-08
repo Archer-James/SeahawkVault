@@ -1,0 +1,123 @@
+/* Top Bar for Year Input and Play Button */
+.unique-top-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    position: absolute;
+    top: 20px;
+  }
+  
+  /* Container for Input Box and Play Button */
+  .input-button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .unique-grad-year-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+  }
+  
+  .unique-play-button {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    background-color: #fcc200;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .unique-play-button:hover {
+    transform: scale(1.05); 
+    background-color: #e6a800;
+  }
+  
+  /* Slideshow Container (Centering the slideshow) */
+  .unique-slideshow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    position: relative;
+    flex-direction: column;
+  }
+  
+  /* Slideshow Frame */
+  .unique-slideshow-frame {
+    width: 70vw; 
+    height: 70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+  .slide-lock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    top: 6%;
+  }
+  /* Slideshow Image */
+  .unique-slideshow-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Play Button Container */
+  .unique-play-button-container {
+    padding: 5px;
+    margin-right: 20px;
+  }
+  
+  /* Year Input Container */
+  .year-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .l-slide-word{
+    width:70%;
+    text-align: center;
+  }
+  .class-title{
+    padding: 35px !important;
+  }
+  
+  /* Play and Pause Buttons */
+  .unique-pause-button,
+  .unique-play-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .unique-pause-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .enter {
+    padding: 5px;
+  }
+  
+  /* Year Input Box */
+  .unique-year-input {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  

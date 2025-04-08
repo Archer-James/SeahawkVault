@@ -2,20 +2,177 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Root Variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+body {
+  color: black;
+  background: var(--background);
+  font-family: 'Lato', sans-serif;
+}
+
+/* Typography Styles */
+
+/* Headings */
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 54px;
+  line-height: 58px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Lora", serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: none; /* Sentence case */
+}
+
+h4 {
+  font-family: "Lora", serif;
+  font-weight: 700; /* Bold */
+  font-size: 19px;
+  line-height: 24px;
+  text-transform: none; /* Sentence case */
+}
+
+/* Table, Accordion, and Tabs */
+.table, .accordion, .tab {
+  font-family: "Lato", sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* Main Text */
+body, p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* General Page Styling */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 4rem 1rem;
+}
+
+/* Page Title */
+.page-title {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.page-title h1 {
+  font-size: 2.25rem; /* 4xl */
+  font-weight: 700; /* Bold */
+  color: #1f2937; /* Dark foreground color */
+}
+
+@media (min-width: 640px) {
+  .page-title h1 {
+    font-size: 3rem; /* 5xl */
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Vault Description */
+.vault-description {
+  margin-bottom: 3rem;
+  padding: 0 1.5rem;
+  max-width: 48rem;
+  text-align: center;
+  font-size: 1.125rem; /* lg */
+  color: #1f2937; /* Dark foreground color */
+}
+
+@media (min-width: 640px) {
+  .vault-description {
+    font-size: 1.25rem; /* xl */
+  }
+}
+
+/* Project Info */
+.project-info {
+  padding: 0 1.5rem;
+  text-align: center;
+  font-size: 1.125rem; /* lg */
+  font-weight: 300; /* Light */
+  color: #1f2937; /* Dark foreground color */
+}
+
+@media (min-width: 640px) {
+  .project-info {
+    font-size: 1.25rem; /* xl */
+  }
+}
+
+/* Testimonials Section */
+.testimonials {
+  margin-top: 4rem;
+  padding: 0 1.5rem;
+  max-width: 64rem;
+  text-align: center;
+}
+
+.testimonials-title {
+  font-size: 1.875rem; /* 3xl */
+  font-weight: 600; /* Semi-bold */
+  color: #1f2937; /* Dark text */
+  margin-bottom: 2rem;
+}
+
+/* Testimonials Container */
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Individual Testimonial Cards */
+.testimonial-card {
+  max-width: 20rem;
+  padding: 1.5rem;
+  background-color: #f3f4f6; /* Light gray background */
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Testimonial Image */
+.testimonial-img {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+}
+
+/* Testimonial Text */
+.testimonial-text {
+  font-size: 1.125rem; /* lg */
+  color: #374151; /* Slightly darker text */
+}
+
+/* Testimonial Author */
+.testimonial-author {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: #1f2937; /* Dark text */
 }

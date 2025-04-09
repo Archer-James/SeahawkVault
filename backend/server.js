@@ -13,8 +13,6 @@ require('dotenv').config();
 const app = express();
 const port = 5000;
 
-
-
 const MONGO_URI = process.env.MONGO_URI; 
 app.use(cors({
   origin: 'http://localhost:3000', 

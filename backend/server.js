@@ -16,11 +16,11 @@ const port = 5000;
 const path = require('path');
 
 // Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'app/build')));
+app.use(express.static(path.join(__dirname, '../build')));
 
 // Handle all other routes by serving the React app
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'app/build', 'index.html'));
+  res.sendFile(path.join(__dirname, '../build', 'index.html'));
 });
 
 const MONGO_URI = process.env.MONGO_URI; 

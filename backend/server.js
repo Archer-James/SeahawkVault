@@ -105,10 +105,7 @@ app.use('/files', express.static(path.join(__dirname, 'uploads')));
 
 // Cloudinary Configuration
 cloudinary.config({
-  cloud_name: 'dfvniunzg',
-  api_key: '431117128247136',
-  api_secret: 'tC_Pxjgq5Njz1RGjFDFI15JJrAY',
-  secure: true,
+ //removed for security
 });
 
 // File Upload Configuration

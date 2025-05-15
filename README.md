@@ -6,7 +6,7 @@
 
 This work culminates in a comprehensive thesis paper detailing the research, design, development, and reflection behind the app. The project was inspired by the concept of time capsules and the evolving role of digital diaries in contemporary culture.
 
->  **[Read the full Honors Thesis here]([https://example.com/seahawk-vault-thesis.pdf](https://drive.google.com/file/d/1mAHcQnZ5PLzA2zA9iTHKT153dSj_Cuv_/view?usp=sharing))**  
+>  **[Read the full Honors Thesis here](https://drive.google.com/file/d/1mAHcQnZ5PLzA2zA9iTHKT153dSj_Cuv_/view?usp=sharing)**  
 
 ---
 
@@ -48,7 +48,7 @@ This work culminates in a comprehensive thesis paper detailing the research, des
 
 Feel free to reach out with questions or feedback!  
 **Email**: kajames234@gmail.com 
-**LinkedIn**: (https://www.linkedin.com/in/erin-aimee-james/)
+**LinkedIn**: [Katherine James](https://www.linkedin.com/in/erin-aimee-james/)
 
 ---
 

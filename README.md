@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The Seahawk Vault – Honors Thesis
 
-## Getting Started
+## Overview
 
-First, run the development server:
+**The Seahawk Vault** is a full-stack web application designed and developed for my Honors Thesis at the University of North Carolina Wilmington (UNCW). The project blends technical innovation with digital memory preservation, offering students a secure, dynamic platform to upload and access college memories—photos, messages, and more—organized by graduation year and privacy preferences.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This work culminates in a comprehensive thesis paper detailing the research, design, development, and reflection behind the app. The project was inspired by the concept of time capsules and the evolving role of digital diaries in contemporary culture.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+>  **[Read the full Honors Thesis here]([https://example.com/seahawk-vault-thesis.pdf](https://drive.google.com/file/d/1mAHcQnZ5PLzA2zA9iTHKT153dSj_Cuv_/view?usp=sharing))**  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+- **Frontend**: Next.js, React, CSS Modules
+- **Backend**: Express.js, MongoDB, Cloudinary, JWT Authentication
+- **Other Tools**: Multer, Bcrypt, Axios, Canvas API
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Website Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Homepage
+![image](https://github.com/user-attachments/assets/69013eb9-4a60-4504-8a01-b3a3b33d3395)
 
-## Deploy on Vercel
+### Login & Signup
+![image](https://github.com/user-attachments/assets/5b4635cb-43f5-4626-807f-bbc1e0880328)
+![image](https://github.com/user-attachments/assets/000638b2-5af7-4f89-99b7-352460572db4)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Personal Vault
+![image](https://github.com/user-attachments/assets/44db0b6e-80d0-453c-bc17-8257f8a7e427)
+![image](https://github.com/user-attachments/assets/177994d0-8942-4384-a461-d12cf245e22a)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+### Graduation Year Vault
+![image](https://github.com/user-attachments/assets/dcbf2b29-0694-4b47-943c-04db4cca0d69)
+![image](https://github.com/user-attachments/assets/b8ede773-62a6-4bb1-bb1b-c16a0ff7ff34)
+
+
+### Slideshow Page
+![image](https://github.com/user-attachments/assets/0189b6c0-897e-4c3c-8d98-23547b3c360c)
+
+
+
+---
+
+## Contact
+
+Feel free to reach out with questions or feedback!  
+**Email**: kajames234@gmail.com 
+**LinkedIn**: (https://www.linkedin.com/in/erin-aimee-james/)
+
+---
+
+© 2025 [Katherine James] – UNCW Honors College  
